@@ -46,3 +46,6 @@ device		netmap
 
 # Crashes when added to loader.conf
 device		speaker
+
+#Enable uchcom - Kontrol
+device    uchcom
