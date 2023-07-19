@@ -89,13 +89,8 @@ DEVICE?=	A10
 COMSPEED?=	115200
 UEFI?=		  dvd vga vm
 ZFS?=		# empty
-GITBASE?=	https://github.com/opnsense
-MIRRORS?=	https://opnsense.c0urier.net \
-		http://mirrors.nycbug.org/pub/opnsense \
-		http://mirror.wdc1.us.leaseweb.net/opnsense \
-		http://mirror.sfo12.us.leaseweb.net/opnsense \
-		http://mirror.fra10.de.leaseweb.net/opnsense \
-		http://mirror.ams1.nl.leaseweb.net/opnsense
+GITBASE?=	https://github.com/kontrol-br
+MIRRORS?=	https://github.com/kontrol-br
 SERVER?=	user@does.not.exist
 UPLOADDIR?=	.
 _VERSION!=	date '+%Y%m%d%H%M'
